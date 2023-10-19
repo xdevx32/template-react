@@ -59,16 +59,7 @@ export default function Home() {
         <div className={styles.hero}>
           <h1>Евала бате Пешко.</h1>
           <p>Ти си най-големия!</p>
-          <img src="/images/18-wheeler.jpeg" />
-        </div>
-        <div className={styles.logo}>
-          <Image
-            src="/images/logo.svg"
-            loading="lazy"
-            alt=""
-            width="70"
-            height="25"
-          />
+          <Image src="/images/18-wheeler.jpeg" width="700" height="500" />
         </div>
       </div>
     </div>
